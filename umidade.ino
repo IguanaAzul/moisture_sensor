@@ -11,6 +11,6 @@ void loop(){
     delay(5);
   }
   sensorValue /= 100;
-  Serial.println(map(sensorValue, 0, 1043, 100, 0));
+  Serial.println(map(sensorValue, 200, 1043, 100, 0));
   delay(50);
 }
